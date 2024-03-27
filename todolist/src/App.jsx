@@ -9,14 +9,14 @@ function App() {
             <div>
                 New to do list
                 <form>
-                    
+
                 </form>
             </div>
         )
     }
   return (
       <div className="Center">
-          <h1>To Do List</h1>
+          <h1>To Do List</h1><n/>
           <form>
               <CreateNew />
           </form>
