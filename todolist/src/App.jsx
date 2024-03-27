@@ -12,19 +12,7 @@ function App() {
         event.preventDefault()
         console.log('button clicked', event.target)
     }
-
-    const CreateNew = () =>{
-        return(
-            <div>
-                <form onSubmit={addThing}>
-                    <p>New to do list</p>
-                    <input value={newThing} onChange = {handleAddChange}/>
-                    <button type="submit">Add</button>
-                </form>
-            </div>
-
-        )
-    }
+    
     return (
         <div>
             <h1>To Do List</h1>
