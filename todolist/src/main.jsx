@@ -4,8 +4,8 @@ import App from './App.jsx'
 import myTitle from "./components/Title.jsx";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <myTitle/>
   <React.StrictMode>
+      <myTitle/>
     <App />
   </React.StrictMode>,
 )
