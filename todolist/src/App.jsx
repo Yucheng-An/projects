@@ -14,13 +14,13 @@ function App() {
 
     const CreateNew = () =>{
         return(
-           
+
                 <p>New to do list</p>
                 <form onSubmit={addThing}>
                     <input value = {newThing}/>
                     <button type = "submit">Add</button>
                 </form>
-            </div>
+            
         )
     }
   return (
