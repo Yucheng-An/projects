@@ -5,7 +5,8 @@ function App() {
     const [newThing, setNewThing] = useState('')
     const thing = []
     const handleAdd = () =>{
-        
+
+        console.log(thing[0])
     }
 
     const CreateNew = (props) =>{
