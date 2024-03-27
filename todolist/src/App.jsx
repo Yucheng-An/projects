@@ -1,7 +1,7 @@
 import './css/style.css'
 function App() {
   return (
-    <div className = "App" >
+    <div className = "Center" >
         <h1>Hello</h1>
     </div>
   )
