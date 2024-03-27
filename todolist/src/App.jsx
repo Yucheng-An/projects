@@ -5,13 +5,13 @@ function App() {
     const [newThing, setNewThing] = useState('')
 
 
-    const CreateNew = () =>{
+    const CreateNew = (props) =>{
 
         return(
             <div >
                 <p>New to do list</p>
                 <input />
-                <button onClick = {handleAdd}>Add</button>
+                <button onClick = {props.handleAdd}>Add</button>
             </div>
         )
     }
