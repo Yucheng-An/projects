@@ -12,7 +12,7 @@ function App() {
         return(
             <div >
                 <p>New to do list</p>
-                <form onSubmit={}>
+                <form onSubmit={addThing}>
 
                 </form>
             </div>
