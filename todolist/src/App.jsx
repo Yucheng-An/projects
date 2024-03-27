@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react'
 
 function App() {
     const [newThing, setNewThing] = useState('')
-    const 
+    const thing = []
     const handleAdd = () =>{
         console.log('Content has been added')
 
