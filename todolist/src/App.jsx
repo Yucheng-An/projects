@@ -13,7 +13,7 @@ function App() {
             <div >
                 <p>New to do list</p>
                 <input />
-                <button onClick = {props.handleAdd} />
+                <Button onClick = {props.handleAdd} />
             </div>
         )
     }
