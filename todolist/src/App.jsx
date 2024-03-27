@@ -29,7 +29,7 @@ function App() {
                 <button type="submit">Add</button>
             </form>
             <ul>
-                {things.map(thing=> <p></p>}
+                {things.map(thing=> <p>thing</p>}
             </ul>
         </div>
     )
