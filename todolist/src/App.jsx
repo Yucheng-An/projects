@@ -16,7 +16,6 @@ function App() {
           <h1>To Do List</h1>
           <CreateNew />
       </div>
-    <CreateNew />
   )
 }
 export default App
