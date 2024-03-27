@@ -7,7 +7,9 @@ function App() {
     const handleAdd = () =>{
         console.log(thing[0])
     }
-    const 
+    const addThing = () =>{
+        
+    }
 
     const CreateNew = () =>{
         return(
