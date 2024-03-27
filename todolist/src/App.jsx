@@ -12,10 +12,11 @@ function App() {
         )
     }
   return (
-    <div className = "Center" >
-        <h1>To Do List</h1>
-        <createNew />
-    </div>
+      <div className="Center">
+          <h1>To Do List</h1>
+          <createNew/>
+      </div>
+    <createNew />
   )
 }
 export default App
