@@ -1,8 +1,5 @@
 import './css/style.css'
 
-
-
-
 function App() {
     const [newThing, setNewThing] = useState()
 
