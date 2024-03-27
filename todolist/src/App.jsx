@@ -13,7 +13,7 @@ function App() {
         event.preventDefault()
         console.log(typeof newThing)
         console.log(things.length)
-        things.concat()
+        things.concat(newThing)
         console.log(things.length)
         setNewThing('')
     }
