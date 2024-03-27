@@ -15,7 +15,7 @@ function App() {
         )
     }
   return (
-      <div className="Center">
+      <div>
           <h1>To Do List</h1>
           <CreateNew/>
       </div>
