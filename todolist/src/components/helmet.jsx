@@ -1,4 +1,4 @@
-
+import { Helmet } from 'react-helmet';
 const MyComponent = () => (
     <div>
         <Helmet>
