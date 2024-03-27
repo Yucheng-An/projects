@@ -9,7 +9,7 @@ function App() {
             <div>
                 New to do list
                 <input>
-                    <button/>
+                    
                 </input>
             </div>
         )
