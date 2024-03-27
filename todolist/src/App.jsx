@@ -32,7 +32,9 @@ function App() {
             </form>
             <ul>
                 {things.map((thing,index)=>
-                    <></>
+                    <li key = {i}>
+                        {thing}
+                    </li>
                 )}
             </ul>
         </div>
