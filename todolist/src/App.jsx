@@ -6,7 +6,6 @@ function App() {
     const thing = []
     const handleAdd = () =>{
         console.log('Content has been added')
-
     }
 
     const CreateNew = (props) =>{
