@@ -17,6 +17,7 @@ function App() {
             <div>
                 <p>New to do list</p>
                 <form onSubmit={addThing}>
+                    <p>New to do list</p>
                     <input value={newThing}/>
                     <button type="submit">Add</button>
                 </form>
