@@ -12,7 +12,7 @@ function App() {
         event.preventDefault()
         console.log('button clicked', event.target)
     }
-    
+
     return (
         <div>
             <h1>To Do List</h1>
