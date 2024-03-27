@@ -8,7 +8,7 @@ function App() {
         return(
             <div >
                 <p>New to do list</p>
-                <p>
+                <p> Create new 
                     <input></input>
                 </p>
             </div>
