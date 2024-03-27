@@ -11,7 +11,7 @@ function App() {
             <div >
                 <p>New to do list</p>
                 <input />
-                <button onClick = {}>Add</button>
+                <button onClick = {handleAdd}>Add</button>
             </div>
         )
     }
