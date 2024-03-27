@@ -7,7 +7,7 @@ function App() {
     const createNew = () =>{
         return(
             <div>
-                
+                <input></input>
             </div>
         )
     }
