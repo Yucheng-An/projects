@@ -22,7 +22,7 @@ function App() {
                 <button type="submit">Add</button>
             </form>
             <ul>
-                
+                {thing.map()}
             </ul>
         </div>
     )
