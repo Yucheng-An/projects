@@ -4,14 +4,14 @@ import {useState, useEffect} from 'react'
 function App() {
     const [newThing, setNewThing] = useState('A new thing')
     const thing = []
-    const handleAddChange = (event) =>{
+    const handleAddChange = () =>{
         console.log(event.target.value)
         setNewThing(event.target.value)
     }
     const addThing = (event) =>{
         event.preventDefault()
         console.log('button clicked', event.target)
-        
+
     }
 
     const CreateNew = () =>{
