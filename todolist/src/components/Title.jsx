@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet';
-const Title = () => (
+const MyTitle = () => (
     <div>
         <Helmet>
             <title>To Do List</title>
