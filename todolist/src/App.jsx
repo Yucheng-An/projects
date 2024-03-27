@@ -6,7 +6,9 @@ import './css/style.css'
 function App() {
     const createNew = () =>{
         return(
-            
+            <div>
+                
+            </div>
         )
     }
   return (
