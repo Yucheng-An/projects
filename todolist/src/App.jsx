@@ -2,6 +2,7 @@ import './css/style.css'
 import {useState, useEffect} from 'react'
 import Thing from "./components/Thing.jsx";
 
+
 function App() {
     const [newThing, setNewThing] = useState('A new thing...')
     const things = ['Eat food','Go to bed']
