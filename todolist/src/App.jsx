@@ -29,8 +29,7 @@ function App() {
                 <button type="submit">Add</button>
             </form>
             <ul>
-                {things.map(thing=>
-                    <Thing key={thing.id} content={thing}/>
+                {things.map(thing=> />
                 )}
             </ul>
         </div>
