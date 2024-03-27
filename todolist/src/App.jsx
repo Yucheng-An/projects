@@ -7,6 +7,7 @@ function App() {
     const [newThing, setNewThing] = useState('A new thing...')
     const things = ['Eat food','Go to bed']
 
+    useEffect()
 
     const addThing = (event) =>{
         event.preventDefault()
