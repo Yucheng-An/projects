@@ -8,4 +8,4 @@ const Title = () => (
     </div>
 );
 
-export default MyComponent;
+export default Title;
