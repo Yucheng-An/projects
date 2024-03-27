@@ -6,7 +6,7 @@ function App() {
     const thing = []
     const handleAddChange = (event) =>{
         console.log(event.target.value)
-        setNewThing(target.value)
+        setNewThing(evnet.value)
     }
     const addThing = (event) =>{
         event.preventDefault()
