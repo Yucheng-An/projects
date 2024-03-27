@@ -4,7 +4,7 @@ import './css/style.css'
 
 
 function App() {
-    const [new, setNew] = useState()
+    const [newThing, setNewThing] = useState()
 
     const CreateNew = () =>{
         return(
