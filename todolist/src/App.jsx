@@ -12,7 +12,7 @@ function App() {
     const addThing = (event) =>{
         event.preventDefault()
         console.log(typeof newThing)
-        console.log()
+        console.log(things.length)
         things.append(newThing)
         setNewThing('')
     }
