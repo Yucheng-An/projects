@@ -7,9 +7,9 @@ function App() {
     const CreateNew = () =>{
         return(
             <div>
-                <form><></>
+                <></>
 
-                </form>
+                
             </div>
         )
     }
