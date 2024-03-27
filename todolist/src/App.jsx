@@ -33,7 +33,7 @@ function App() {
             <ul>
                 {things.map((thing)=>
                     <li >
-                        thing
+                        {thing}
                     </li>
                 )}
             </ul>
