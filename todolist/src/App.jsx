@@ -7,8 +7,9 @@ function App() {
     const handleAdd = () =>{
         console.log(thing[0])
     }
-    const addThing = () =>{
-        
+    const addThing = (event) =>{
+        event.preventDefault()
+        console.log('button clicked')
     }
 
     const CreateNew = () =>{
