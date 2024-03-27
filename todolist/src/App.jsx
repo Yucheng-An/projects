@@ -12,6 +12,7 @@ function App() {
     const addThing = (event) =>{
         event.preventDefault()
         console.log(typeof newThing)
+        console.log()
         things.append(newThing)
         setNewThing('')
     }
