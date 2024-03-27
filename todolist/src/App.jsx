@@ -5,8 +5,7 @@ import Thing from "./components/Thing.jsx";
 function App() {
     const [newThing, setNewThing] = useState('A new thing...')
     const things = ['Eat food','Go to bed']
-
-    useState(event)
+    
     const handleAddChange = (event) =>{
         console.log(event.target.value)
         setNewThing(event.target.value)
