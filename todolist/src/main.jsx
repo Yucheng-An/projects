@@ -5,7 +5,7 @@ import myTitle from "./components/myTitle.jsx";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <myTitle/>
+    <myTitle />
     <App />
   </React.StrictMode>
 )
