@@ -2,7 +2,7 @@ import './css/style.css'
 
 
 function App() {
-    //const [newThing, setNewThing] = useState()
+    const [newThing, setNewThing] = useState()
     const CreateNew = () =>{
         return(
             <div >
