@@ -1,7 +1,7 @@
-const Thing = () =>{
+const Thing = (props) =>{
     return (
         <div>
-            
+            {props.content}
         </div>
     )
 }
