@@ -1,5 +1,7 @@
 const Thing = () =>{
     return (
-        <div></div>
+        <div>
+            
+        </div>
     )
 }
