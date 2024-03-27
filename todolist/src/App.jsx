@@ -14,6 +14,7 @@ function App() {
         console.log(typeof newThing)
         console.log(things.length)
         things.append(newThing)
+        console.log(things.length)
         setNewThing('')
     }
 
