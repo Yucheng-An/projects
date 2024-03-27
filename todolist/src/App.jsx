@@ -2,7 +2,7 @@ import './css/style.css'
 function App() {
   return (
     <div className = "Center" >
-        <h1>Hello</h1>
+        <h1>To</h1>
     </div>
   )
 }
