@@ -6,7 +6,7 @@ function App() {
     const [newThing, setNewThing] = useState('A new thing...')
     const things = ['Eat food','Go to bed']
 
-    
+
     const addThing = (event) =>{
         event.preventDefault()
         console.log(typeof newThing)
@@ -17,7 +17,6 @@ function App() {
     }
 
     const handleAddChange = (event) =>{
-        console.log(event.target.value)
         setNewThing(event.target.value)
     }
 
