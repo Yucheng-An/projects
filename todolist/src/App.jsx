@@ -11,7 +11,7 @@ function App() {
     }
     const addThing = (event) =>{
         event.preventDefault()
-        console.log('button clicked', event.target)
+        
     }
 
     return (
