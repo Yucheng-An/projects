@@ -7,7 +7,8 @@ function App() {
     const CreateNew = () =>{
         return(
             <div>
-                New to do list<input>
+                New to do list
+                <input>
                 
             </input>
             </div>
