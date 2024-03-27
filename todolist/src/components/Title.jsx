@@ -5,7 +5,6 @@ const MyComponent = () => (
         <Helmet>
             <title>Your Dynamic Title Here</title>
         </Helmet>
-        {/* Your component content */}
     </div>
 );
 
