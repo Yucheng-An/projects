@@ -8,12 +8,12 @@ function App() {
         console.log(thing[0])
     }
 
-    const CreateNew = (props) =>{
+    const CreateNew = () =>{
         return(
             <div >
                 <p>New to do list</p>
                 <input />
-                <Button onClick = {props.handleAdd} text = "Add"/>
+                <Button onClick = {handleAdd} text = "Add"/>
             </div>
         )
     }
