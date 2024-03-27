@@ -6,6 +6,6 @@ import MyComponent from "./components/helmet.jsx";
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
       <MyComponent/>
-     <App />
+      <App />
   </React.StrictMode>,
 )
