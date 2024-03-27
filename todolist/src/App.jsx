@@ -31,7 +31,7 @@ function App() {
                 <button type="submit">Add</button>
             </form>
             <ul>
-                {things.map((thing,index)=>
+                {things.map((thing)=>
                     <li key = {index}>
                         thing
                     </li>
