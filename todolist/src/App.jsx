@@ -4,7 +4,9 @@ import './css/style.css'
 
 
 function App() {
-    const createNew () 
+    const createNew = () =>{
+        
+    }
   return (
     <div className = "Center" >
         <h1>To Do List</h1>
