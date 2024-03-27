@@ -5,7 +5,7 @@ function App() {
     const [newThing, setNewThing] = useState('A new thing')
     const thing = []
     const handleAddChange = () =>{
-        console.log(target.value)
+        console.log(event.target.value)
         setNewThing(target.value)
     }
     const addThing = (event) =>{
