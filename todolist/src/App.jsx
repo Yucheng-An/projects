@@ -2,7 +2,7 @@ import './css/style.css'
 import {useState, useEffect} from 'react'
 
 function App() {
-    const [newThing, setNewThing] = useState('')
+    const [newThing, setNewThing] = useState('A new thing')
     const thing = []
     const handleAdd = () =>{
         console.log(thing[0])
