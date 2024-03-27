@@ -24,7 +24,7 @@ function App() {
             </form>
             <ul>
                 {things.map(thing=>
-                    <Thing key={things.id}/>
+                    <Thing />
                 )}
             </ul>
         </div>
