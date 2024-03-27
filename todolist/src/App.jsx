@@ -9,8 +9,8 @@ function App() {
             <div>
                 New to do list
                 <input>
-                
-            </input>
+
+                </input>
             </div>
         )
     }
