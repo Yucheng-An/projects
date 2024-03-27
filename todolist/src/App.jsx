@@ -4,8 +4,8 @@ import {useState, useEffect} from 'react'
 function App() {
     const [newThing, setNewThing] = useState('A new thing')
     const thing = []
-    const handleAddChange = () =>{
-        
+    const handleAddChange = (event) =>{
+
     }
     const addThing = (event) =>{
         event.preventDefault()
