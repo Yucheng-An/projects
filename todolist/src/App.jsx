@@ -6,7 +6,7 @@ import './css/style.css'
 function App() {
     const CreateNew = () =>{
         return(
-            <div>
+            <div className="Center">
                 <p>New to do list</p>
                 <p>s</p>
 
