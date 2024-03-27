@@ -5,7 +5,9 @@ import './css/style.css'
 
 function App() {
     const createNew = () =>{
-        
+        return(
+            
+        )
     }
   return (
     <div className = "Center" >
