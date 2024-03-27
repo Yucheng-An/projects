@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react'
 
 function App() {
     const [newThing, setNewThing] = useState('A new thing...')
-    const thing = ['Eat food','Go to bed']
+    const things = ['Eat food','Go to bed']
     const handleAddChange = (event) =>{
         console.log(event.target.value)
         setNewThing(event.target.value)
@@ -22,7 +22,7 @@ function App() {
                 <button type="submit">Add</button>
             </form>
             <ul>
-                thing
+                things
             </ul>
         </div>
     )
