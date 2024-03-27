@@ -16,10 +16,8 @@ function App() {
     }
   return (
       <div className="Center">
-          <h1>To Do List</h1><n/>
-          <form>
-              <CreateNew />
-          </form>
+          <h1>To Do List</h1>
+          <></>
       </div>
   )
 }
