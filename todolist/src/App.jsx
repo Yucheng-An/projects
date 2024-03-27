@@ -5,7 +5,7 @@ function App() {
     const [newThing, setNewThing] = useState('')
     const thing = []
     const handleAdd = () =>{
-
+        setNewThing()
         console.log(thing[0])
     }
 
