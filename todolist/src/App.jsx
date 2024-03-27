@@ -11,7 +11,7 @@ function App() {
     }
     const addThing = (event) =>{
         event.preventDefault()
-        console.log()
+        console.log(typeof newThing)
         things.append(newThing)
         setNewThing('')
     }
