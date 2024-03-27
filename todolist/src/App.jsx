@@ -3,13 +3,13 @@ import {useState, useEffect} from 'react'
 
 function App() {
     const [newThing, setNewThing] = useState('')
-    
+
 
     const CreateNew = () =>{
         return(
             <div >
                 <p>New to do list</p>
-                <input />
+                <input /><></>
             </div>
         )
     }
