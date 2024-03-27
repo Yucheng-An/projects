@@ -1,5 +1,4 @@
 import { Helmet } from 'react-helmet';
-
 const Title = () => (
     <div>
         <Helmet>
