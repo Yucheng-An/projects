@@ -4,9 +4,11 @@ import {useState, useEffect} from 'react'
 function App() {
     const [newThing, setNewThing] = useState('')
 
+    handleAdd = () =>{
+        
+    }
 
     const CreateNew = (props) =>{
-
         return(
             <div >
                 <p>New to do list</p>
