@@ -18,7 +18,7 @@ function App() {
                 <p>New to do list</p>
                 <form onSubmit={addThing}>
                     <input value = {newThing}/>
-                    <></>
+                    <button></button>
                 </form>
             </div>
         )
