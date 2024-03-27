@@ -8,7 +8,9 @@ function App() {
         return(
             <div >
                 <p>New to do list</p>
-                <input></input>
+                <p>
+                    <input></input>
+                </p>
             </div>
         )
     }
