@@ -21,6 +21,9 @@ function App() {
                 <input value={newThing} onChange={handleAddChange}/>
                 <button type="submit">Add</button>
             </form>
+            <ul>
+                
+            </ul>
         </div>
     )
 }
