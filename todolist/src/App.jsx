@@ -11,7 +11,7 @@ function App() {
     }
     const addThing = (event) =>{
         event.preventDefault()
-        const newThingObject = 
+        const newThingObject = newThing
     }
 
     return (
