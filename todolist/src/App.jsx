@@ -15,7 +15,6 @@ function App() {
     const CreateNew = () =>{
         return(
             <div>
-                <p>New to do list</p>
                 <form onSubmit={addThing}>
                     <p>New to do list</p>
                     <input value={newThing}/>
