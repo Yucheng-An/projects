@@ -10,7 +10,7 @@ const CreateNew = () =>{
 }
 
 function App() {
-    const [newThing, setNewThing] = useState()
+    //const [newThing, setNewThing] = useState()
 
   return (
       <div>
