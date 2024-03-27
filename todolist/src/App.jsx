@@ -7,8 +7,7 @@ function App() {
     const CreateNew = () =>{
         return(
             <div>
-                New to do list
-                <form>
+                <form><></>
 
                 </form>
             </div>
