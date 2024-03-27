@@ -11,8 +11,8 @@ function App() {
     }
     const addThing = (event) =>{
         event.preventDefault()
-        const newThingObject = newThing
-        things.append()
+        things.append(newThing)
+        setNewThing('')
     }
 
     return (
