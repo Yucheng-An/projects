@@ -1,5 +1,5 @@
 import './css/style.css'
-
+import {useState, useEffect} from 'react'
 
 function App() {
     const [newThing, setNewThing] = useState()
