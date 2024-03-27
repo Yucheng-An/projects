@@ -5,6 +5,9 @@ import App from './App.jsx'
 import myTitle from "./components/myTitle.jsx";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+    <div>
+        
+    </div>
   <React.StrictMode>
     <myTitle />
     <App />
