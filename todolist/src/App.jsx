@@ -14,20 +14,22 @@ function App() {
 
     const CreateNew = () =>{
         return(
-
+            <p>
                 <p>New to do list</p>
                 <form onSubmit={addThing}>
-                    <input value = {newThing}/>
-                    <button type = "submit">Add</button>
+                    <input value={newThing}/>
+                    <button type="submit">Add</button>
                 </form>
-            
+            </p>
+
         )
     }
-  return (
-      <div>
-          <h1>To Do List</h1>
-          <CreateNew handleAdd = {handleAdd}/>
-      </div>
-  )
+    return (
+        <div>
+            <h1>To Do List</h1>
+            <CreateNew handleAdd={handleAdd}/>
+        </div>
+    )
 }
+
 export default App
