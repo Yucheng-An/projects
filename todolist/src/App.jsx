@@ -5,7 +5,7 @@ import Thing from "./components/Thing.jsx";
 
 function App() {
     const [newThing, setNewThing] = useState('A new thing...')
-    const things = ['Eat food','Go to bed']
+    const things = ['Eat food','Go to bed','Go to bed2','Go to bed3','Go to be4','Go to bed5','Go to be6d','Go to bed7','Go to bed8','Go to bed9']
 
     const addThing = (event) =>{
         event.preventDefault()
